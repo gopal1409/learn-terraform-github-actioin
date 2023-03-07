@@ -17,15 +17,9 @@ terraform {
 
   }
   ####
-  cloud {
-    organization = "cloud4c-vpc"
-
-    workspaces {
-      name = "gh-action-demo"
-    }
-  }
+  
 }
-
+###test block
 #provider block
 provider "aws" {
   region = var.aws_region
