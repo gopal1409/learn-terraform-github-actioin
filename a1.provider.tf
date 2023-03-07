@@ -17,7 +17,7 @@ terraform {
 
   }
   ####
-  
+
 }
 ###test block
 #provider block
