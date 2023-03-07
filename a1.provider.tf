@@ -14,16 +14,16 @@ terraform {
       source = "hashicorp/null"
     }
 
- cloud {
+ 
+  }
+  ####
+cloud {
     organization = "cloud4c-vpc"
 
     workspaces {
       name = "gh-action-demo"
     }
   }
-  }
-  ####
-
 }
 
 #provider block
