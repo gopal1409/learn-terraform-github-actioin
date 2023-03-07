@@ -17,7 +17,13 @@ terraform {
 
   }
   ####
+  cloud {
+    organization = "cloud4c-vpc"
 
+    workspaces {
+      name = "gh-action-demo"
+    }
+  }
 }
 
 #provider block
