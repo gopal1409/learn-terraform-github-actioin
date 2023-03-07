@@ -16,7 +16,7 @@ terraform {
 
 
   }
-cloud {
+  cloud {
     organization = "cloud4c-vpc"
 
     workspaces {
