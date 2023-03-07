@@ -1,4 +1,4 @@
-resource "null_resource" "name" {
+/*resource "null_resource" "name" {
   depends_on = [
     module.ec2-public
   ]
@@ -27,4 +27,4 @@ resource "null_resource" "name" {
     working_dir = "local-exec-output-files"
   }
 
-}
+}*/
